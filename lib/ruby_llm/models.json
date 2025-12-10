@@ -6544,6 +6544,44 @@
     }
   },
   {
+    "id": "gpt-5.1",
+    "name": "GPT-5.1",
+    "provider": "openai",
+    "family": "gpt-5.1",
+    "created_at": null,
+    "context_window": 400000,
+    "max_output_tokens": 128000,
+    "knowledge_cutoff": null,
+    "modalities": {
+      "input": [
+        "image",
+        "text"
+      ],
+      "output": [
+        "embeddings",
+        "image",
+        "text"
+      ]
+    },
+    "capabilities": [
+      "function_calling",
+      "structured_output"
+    ],
+    "pricing": {
+      "text_tokens": {
+        "standard": {
+          "input_per_million": 1.25,
+          "cached_input_per_million": 0.125,
+          "output_per_million": 10.0
+        }
+      }
+    },
+    "metadata": {
+      "object": "model",
+      "owned_by": "system"
+    }
+  },
+  {
     "id": "gpt-3.5-turbo",
     "name": "GPT-3.5 Turbo",
     "provider": "openai",
